@@ -68,6 +68,9 @@
       scripts,
       ...
     }:
+    let
+      stateVersion = "25.05"; # FIXME
+    in
     {
       nixosConfigurations = {
         B550 = nixpkgs.lib.nixosSystem {
@@ -77,12 +80,13 @@
               slock
               dwm
               scripts
+              stateVersion
               ;
           };
           modules = [
             ./hardware-configuration.nix
             ./configuration.nix
-            (home.makeHomeModule "a" "25.05") # FIXME
+            (home.makeHomeModule "a" stateVersion) # FIXME
           ];
         };
       };

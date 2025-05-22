@@ -92,11 +92,6 @@
       enable = true;
       support32Bit = true;
     };
-    # syncthing = {
-    #   enable = true;
-    #   dataDir = "/home/a/Syncthing"; # TODO maybe move to home-manager?
-    #   configDir = "/home/a/Syncthing";
-    # };
   };
 
   system = {
