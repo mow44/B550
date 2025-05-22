@@ -1,15 +1,12 @@
-let
-  currentVersion = "25.05";
-in
 {
   description = "NixOS-B550";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-${currentVersion}";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05"; # FIXME
     flake-utils.url = "github:numtide/flake-utils";
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-${currentVersion}";
+      url = "github:nix-community/home-manager/release-25.05"; # FIXME
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -85,7 +82,7 @@ in
           modules = [
             ./hardware-configuration.nix
             ./configuration.nix
-            (home.makeHomeModule "a" currentVersion)
+            (home.makeHomeModule "a" "25.05") # FIXME
           ];
         };
       };

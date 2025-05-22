@@ -3,24 +3,29 @@
     "dmenu": {
       "inputs": {
         "nixpkgs": [
-          "dwm",
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1747552482,
-        "narHash": "sha256-lug539D4rHc5O9zBWMKrByEepiQjncStW+3DjDIzryQ=",
-        "path": "/home/a/NixOS/dmenu",
-        "type": "path"
+        "lastModified": 1747935578,
+        "narHash": "sha256-qVm4T7gOOdLk6ZRwTBlsY2cuaxV/Zvl/r1ohVHcOivs=",
+        "owner": "mow44",
+        "repo": "dmenu",
+        "rev": "6ad42841c90037870ba7511126d128c6a28c5cdf",
+        "type": "github"
       },
       "original": {
-        "path": "/home/a/NixOS/dmenu",
-        "type": "path"
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "dmenu",
+        "type": "github"
       }
     },
     "dwm": {
       "inputs": {
-        "dmenu": "dmenu",
+        "dmenu": [
+          "dmenu"
+        ],
         "flake-utils": [
           "flake-utils"
         ],
@@ -32,14 +37,18 @@
         ]
       },
       "locked": {
-        "lastModified": 1747552506,
-        "narHash": "sha256-isnMaxi1tlauwU2knrffrcte2adU+K8d7hAqKRyeCgk=",
-        "path": "/home/a/NixOS/dwm",
-        "type": "path"
+        "lastModified": 1747935543,
+        "narHash": "sha256-GpLKtDbdcsekMDjCVVX34H2OIvuzcEppi91HaKP1VZE=",
+        "owner": "mow44",
+        "repo": "dwm",
+        "rev": "79448ca2bc21ea204570b669b19512544f22988a",
+        "type": "github"
       },
       "original": {
-        "path": "/home/a/NixOS/dwm",
-        "type": "path"
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "dwm",
+        "type": "github"
       }
     },
     "flake-utils": {
@@ -63,17 +72,16 @@
     "helix": {
       "inputs": {
         "nixpkgs": [
-          "home",
           "nixpkgs"
         ],
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1747493001,
-        "narHash": "sha256-neFgj702FumseozJ8ny/MDaqKd9PE+hteM7TqkoxRvM=",
+        "lastModified": 1747921971,
+        "narHash": "sha256-ZH/YXPZKyrrlEm9/tlLmYFbG5j76GqisFJYo/Kh85Ak=",
         "owner": "helix-editor",
         "repo": "helix",
-        "rev": "ebf96bd4692dfa02c6318b15b11f8a7bc127e7ca",
+        "rev": "ae0dd313bdb418b6944ce77b44023c7fb31b9000",
         "type": "github"
       },
       "original": {
@@ -85,24 +93,32 @@
     },
     "home": {
       "inputs": {
-        "helix": "helix",
+        "helix": [
+          "helix"
+        ],
         "home-manager": [
           "home-manager"
         ],
         "nixpkgs": [
           "nixpkgs"
         ],
-        "slstatus": "slstatus"
+        "slstatus": [
+          "slstatus"
+        ]
       },
       "locked": {
-        "lastModified": 1747675712,
-        "narHash": "sha256-3PkseG9nfUC96JHpcCxGURKYBjtpFzmvy/LElcNkY+8=",
-        "path": "/home/a/NixOS/home",
-        "type": "path"
+        "lastModified": 1747935615,
+        "narHash": "sha256-pGz59+ok9mcCqKrN8hJBc8Dl3zJGTRD1A/V8TiAAMdA=",
+        "owner": "mow44",
+        "repo": "home",
+        "rev": "233cb90c30909a98a82b9368001b9e28a5250feb",
+        "type": "github"
       },
       "original": {
-        "path": "/home/a/NixOS/home",
-        "type": "path"
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "home",
+        "type": "github"
       }
     },
     "home-manager": {
@@ -128,11 +144,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1747428706,
-        "narHash": "sha256-XVds9FkRrY59xRNNq14FNsFGqDiexXX/mlHcX4hPyyk=",
+        "lastModified": 1747825515,
+        "narHash": "sha256-BWpMQymVI73QoKZdcVCxUCCK3GNvr/xa2Dc4DM1o2BE=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "2e1496bf8652ff4af4e4d4737277f71e4a4f5cb2",
+        "rev": "cd2812de55cf87df88a9e09bf3be1ce63d50c1a6",
         "type": "github"
       },
       "original": {
@@ -144,19 +160,21 @@
     },
     "root": {
       "inputs": {
+        "dmenu": "dmenu",
         "dwm": "dwm",
         "flake-utils": "flake-utils",
+        "helix": "helix",
         "home": "home",
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs",
         "scripts": "scripts",
-        "slock": "slock"
+        "slock": "slock",
+        "slstatus": "slstatus"
       }
     },
     "rust-overlay": {
       "inputs": {
         "nixpkgs": [
-          "home",
           "helix",
           "nixpkgs"
         ]
@@ -185,14 +203,18 @@
         ]
       },
       "locked": {
-        "lastModified": 1747849641,
-        "narHash": "sha256-KYGO93UmvVjCuwZ0Zq3OqkE9jgzit7Xf6rsJv+iTYJE=",
-        "path": "/home/a/NixOS/scripts",
-        "type": "path"
+        "lastModified": 1747935511,
+        "narHash": "sha256-Fe+hUDaGYTVI95xMREvTf05Q3pGKP9qU5q4cxBNMDNU=",
+        "owner": "mow44",
+        "repo": "scripts",
+        "rev": "63698e6c1fe75390785a5f7dbfb6d4eb458084a9",
+        "type": "github"
       },
       "original": {
-        "path": "/home/a/NixOS/scripts",
-        "type": "path"
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "scripts",
+        "type": "github"
       }
     },
     "slock": {
@@ -202,32 +224,39 @@
         ]
       },
       "locked": {
-        "lastModified": 1747235851,
-        "narHash": "sha256-ge+B7YExKYzkKGPvlCAusqkUSFZWfD6yNdww+jUlKUw=",
-        "path": "/home/a/NixOS/slock",
-        "type": "path"
+        "lastModified": 1747935471,
+        "narHash": "sha256-CjmYB/T9IUsleFs1f9Do9Z0L8eg3dDSVEFZEuNnkS2Y=",
+        "owner": "mow44",
+        "repo": "slock",
+        "rev": "4cd71dc5a8ece25b53f9569c8e879b0fa9cfd72a",
+        "type": "github"
       },
       "original": {
-        "path": "/home/a/NixOS/slock",
-        "type": "path"
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "slock",
+        "type": "github"
       }
     },
     "slstatus": {
       "inputs": {
         "nixpkgs": [
-          "home",
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1747235857,
-        "narHash": "sha256-eqb3zooXtDRUeC4x+59mrZRaUunug6t2e36kV5EvwbQ=",
-        "path": "/home/a/NixOS/slstatus",
-        "type": "path"
+        "lastModified": 1747935449,
+        "narHash": "sha256-dhr0cFDpqLAwwhaRfDEoioCAjm1Oan1dhCQlJtIiCcI=",
+        "owner": "mow44",
+        "repo": "slstatus",
+        "rev": "8bf795648db564c2af492cbcfa439cc2dee3a1d9",
+        "type": "github"
       },
       "original": {
-        "path": "/home/a/NixOS/slstatus",
-        "type": "path"
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "slstatus",
+        "type": "github"
       }
     },
     "systems": {
