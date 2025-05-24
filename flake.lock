@@ -37,11 +37,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1748093794,
-        "narHash": "sha256-IwtX6BeAZ1g9lf9yMCp9A7LKlEZfduNpsSHZF5/LgOg=",
+        "lastModified": 1748103725,
+        "narHash": "sha256-0C3VwnCrrVjLw3FszLtP0OKprkjQbI3uyQLX+ZwJ2qM=",
         "owner": "mow44",
         "repo": "dwm",
-        "rev": "1cf8dafe477a68c142ad4398416465ca80c5d903",
+        "rev": "f792040c791d4e29443b889f6f97734bfe2c9b6e",
         "type": "github"
       },
       "original": {
@@ -195,6 +195,9 @@
     },
     "scripts": {
       "inputs": {
+        "dmenu": [
+          "dmenu"
+        ],
         "flake-utils": [
           "flake-utils"
         ],
@@ -203,11 +206,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1748013117,
-        "narHash": "sha256-icG1FZ/3q52/3hQ9AZtWI+Kf0H++P4aqjkkIk+hmgC8=",
+        "lastModified": 1748103219,
+        "narHash": "sha256-n8lGi9CXDzrrpUU8KzQeNfhVGwSrViHpabRjLq2doks=",
         "owner": "mow44",
         "repo": "scripts",
-        "rev": "bae6ca883670289a1f06feee175d386b51622649",
+        "rev": "874b2a3af2c7f034a314bbb387a94a8f1e6d360f",
         "type": "github"
       },
       "original": {

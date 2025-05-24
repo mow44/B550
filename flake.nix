@@ -10,17 +10,18 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    dmenu = {
+      url = "github:mow44/dmenu/main";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     scripts = {
       url = "github:mow44/scripts/main";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
+        dmenu.follows = "dmenu";
       };
-    };
-
-    dmenu = {
-      url = "github:mow44/dmenu/main";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     slock = {
