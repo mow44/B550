@@ -107,11 +107,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1748093646,
-        "narHash": "sha256-1GJq1nKn0jxcLwJecxgQ3CWUyuVdnXNzmLJIfUeGdX4=",
+        "lastModified": 1748246201,
+        "narHash": "sha256-Gj9EwOFn/D/qFYHiZ0gO2makC1QDXpPia5wxo/MQp9s=",
         "owner": "mow44",
         "repo": "home",
-        "rev": "eb4e74624c5af30643e71bb8b09213a216215606",
+        "rev": "bf490b5b57548675e6cec148cccdb729d27dc6e7",
         "type": "github"
       },
       "original": {
