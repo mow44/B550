@@ -18,6 +18,22 @@
       };
     };
 
+    catclock = {
+      url = "github:mow44/catclock/main";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
+    };
+
+    calendar = {
+      url = "github:mow44/calendar/main";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
+    };
+
     dmenu = {
       url = "github:mow44/dmenu/main";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -29,6 +45,8 @@
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
         uxn11.follows = "uxn11";
+        catclock.follows = "catclock";
+        calendar.follows = "calendar";
         dmenu.follows = "dmenu";
       };
     };
