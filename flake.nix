@@ -10,6 +10,14 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    uxn11 = {
+      url = "github:mow44/uxn11/main";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
+    };
+
     dmenu = {
       url = "github:mow44/dmenu/main";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -20,6 +28,7 @@
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
+        uxn11.follows = "uxn11";
         dmenu.follows = "dmenu";
       };
     };
@@ -58,6 +67,7 @@
         dmenu.follows = "dmenu";
       };
     };
+
   };
 
   outputs =
@@ -67,6 +77,7 @@
       slock,
       dwm,
       scripts,
+      uxn11,
       ...
     }:
     let
@@ -81,6 +92,7 @@
               slock
               dwm
               scripts
+              uxn11
               stateVersion
               ;
           };

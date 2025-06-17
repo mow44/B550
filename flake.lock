@@ -1,5 +1,31 @@
 {
   "nodes": {
+    "catclock": {
+      "inputs": {
+        "flake-utils": [
+          "scripts",
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "scripts",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1750152718,
+        "narHash": "sha256-823hJoDjXME2bJovvYazspe3rC9OBobmu00f0r304wo=",
+        "owner": "mow44",
+        "repo": "catclock",
+        "rev": "9d5e7b076d1c77b5d41ece792f1870aee8bc95f3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "catclock",
+        "type": "github"
+      }
+    },
     "dmenu": {
       "inputs": {
         "nixpkgs": [
@@ -169,7 +195,8 @@
         "nixpkgs": "nixpkgs",
         "scripts": "scripts",
         "slock": "slock",
-        "slstatus": "slstatus"
+        "slstatus": "slstatus",
+        "uxn11": "uxn11"
       }
     },
     "rust-overlay": {
@@ -195,6 +222,7 @@
     },
     "scripts": {
       "inputs": {
+        "catclock": "catclock",
         "dmenu": [
           "dmenu"
         ],
@@ -203,14 +231,17 @@
         ],
         "nixpkgs": [
           "nixpkgs"
+        ],
+        "uxn11": [
+          "uxn11"
         ]
       },
       "locked": {
-        "lastModified": 1748104103,
-        "narHash": "sha256-bWABxms9ISnTDUefrffAypS0Tx7ljuH5cPy7gwmU4e4=",
+        "lastModified": 1750153504,
+        "narHash": "sha256-eZp9aJ5Ho1au2LXS6jmmO1jWOmxeasCAHMMM6pbtvjU=",
         "owner": "mow44",
         "repo": "scripts",
-        "rev": "2c91ccb68d4f4aa33cb651d7047c4f36db74bdc8",
+        "rev": "753bea4ba89af57d7201922a3baa48168afaf678",
         "type": "github"
       },
       "original": {
@@ -274,6 +305,30 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "uxn11": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1750150715,
+        "narHash": "sha256-sYM7qpX4+/Zh15XvSKDhizz685YMGGhT3tsTEAKhWWY=",
+        "owner": "mow44",
+        "repo": "uxn11",
+        "rev": "5f5a53504335649d544884bf9898fb8dd0d5fc70",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "uxn11",
         "type": "github"
       }
     }

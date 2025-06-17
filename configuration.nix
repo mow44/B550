@@ -3,6 +3,7 @@
   slock,
   dwm,
   scripts,
+  uxn11,
   stateVersion,
   ...
 }:
@@ -46,6 +47,7 @@
 
   environment.systemPackages = [
     scripts.packages.x86_64-linux.default
+    uxn11.packages.x86_64-linux.default
   ];
 
   fonts = {
