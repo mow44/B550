@@ -10,14 +10,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    themes = {
-      url = "github:mow44/themes/main";
-      inputs = {
-        nixpkgs.follows = "nixpkgs";
-        flake-utils.follows = "flake-utils";
-      };
-    };
-
     uxn11 = {
       url = "github:mow44/uxn11/main";
       inputs = {
@@ -36,7 +28,6 @@
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
-        themes.follows = "themes";
         uxn11.follows = "uxn11";
         dmenu.follows = "dmenu";
       };
