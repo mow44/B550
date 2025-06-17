@@ -3,20 +3,18 @@
     "calendar": {
       "inputs": {
         "flake-utils": [
-          "scripts",
           "flake-utils"
         ],
         "nixpkgs": [
-          "scripts",
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1750178948,
-        "narHash": "sha256-Vi2fM5dQUVH6sJQcTWfDo6sBftWVk6WzfKZ+hi8jF50=",
+        "lastModified": 1750185258,
+        "narHash": "sha256-i8hhsyPCjxXkGnaqgXXLZZcF6K+GWj74jLNM1zaW/Ls=",
         "owner": "mow44",
         "repo": "calendar",
-        "rev": "ec0b595645fdf4049fed3966fa58a27c3c4a5201",
+        "rev": "90f97cdfb2b9113c50ed6d1221bec6061e0463c2",
         "type": "github"
       },
       "original": {
@@ -29,11 +27,9 @@
     "catclock": {
       "inputs": {
         "flake-utils": [
-          "scripts",
           "flake-utils"
         ],
         "nixpkgs": [
-          "scripts",
           "nixpkgs"
         ]
       },
@@ -210,8 +206,34 @@
         "type": "github"
       }
     },
+    "noodle": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1750186257,
+        "narHash": "sha256-gM68lexUN0YIyoU0EbgtPo+gDoznQwmBSFA+OyJ8UVA=",
+        "owner": "mow44",
+        "repo": "noodle",
+        "rev": "131e83ec1ec860b7ba7a306c82c581c54fe2a9e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "noodle",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
+        "calendar": "calendar",
+        "catclock": "catclock",
         "dmenu": "dmenu",
         "dwm": "dwm",
         "flake-utils": "flake-utils",
@@ -219,6 +241,7 @@
         "home": "home",
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs",
+        "noodle": "noodle",
         "scripts": "scripts",
         "slock": "slock",
         "slstatus": "slstatus",
@@ -248,8 +271,12 @@
     },
     "scripts": {
       "inputs": {
-        "calendar": "calendar",
-        "catclock": "catclock",
+        "calendar": [
+          "calendar"
+        ],
+        "catclock": [
+          "catclock"
+        ],
         "dmenu": [
           "dmenu"
         ],
@@ -259,16 +286,19 @@
         "nixpkgs": [
           "nixpkgs"
         ],
+        "noodle": [
+          "noodle"
+        ],
         "uxn11": [
           "uxn11"
         ]
       },
       "locked": {
-        "lastModified": 1750185061,
-        "narHash": "sha256-j2n6S/uMmTIOW5RgnT7KjtIsY4Vr1nUPCg/JjUs9064=",
+        "lastModified": 1750186500,
+        "narHash": "sha256-E68jOqK6Wt/R9vZfZ2ycGVeISaKmCtSaBAUQUXakkXI=",
         "owner": "mow44",
         "repo": "scripts",
-        "rev": "56caa32ddba14858ae5ccec7615e5daf7edafc40",
+        "rev": "1f9616877d6bba0d3d86750e8a04ef7bfb85bc90",
         "type": "github"
       },
       "original": {

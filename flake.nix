@@ -34,6 +34,14 @@
       };
     };
 
+    noodle = {
+      url = "github:mow44/noodle/main";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
+    };
+
     dmenu = {
       url = "github:mow44/dmenu/main";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -47,6 +55,7 @@
         uxn11.follows = "uxn11";
         catclock.follows = "catclock";
         calendar.follows = "calendar";
+        noodle.follows = "noodle";
         dmenu.follows = "dmenu";
       };
     };
