@@ -222,6 +222,7 @@
         "scripts": "scripts",
         "slock": "slock",
         "slstatus": "slstatus",
+        "themes": "themes",
         "uxn11": "uxn11"
       }
     },
@@ -259,16 +260,19 @@
         "nixpkgs": [
           "nixpkgs"
         ],
+        "themes": [
+          "themes"
+        ],
         "uxn11": [
           "uxn11"
         ]
       },
       "locked": {
-        "lastModified": 1750180411,
-        "narHash": "sha256-REnI9kbFv7QB1oUCUeCpQavWCNDrdnDP3Irl+LlxQm0=",
+        "lastModified": 1750182528,
+        "narHash": "sha256-+e9QxsCV4wXpt9E8RHdieh+l3QwzCSjyLEPHBsPzH1Y=",
         "owner": "mow44",
         "repo": "scripts",
-        "rev": "cc2ea73645ba04ee37a5ab2a48f39a02c67766fe",
+        "rev": "5c088699de84ea36df4b07892c08b82ac9b05f56",
         "type": "github"
       },
       "original": {
@@ -332,6 +336,30 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "themes": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1750180758,
+        "narHash": "sha256-RyZQhBv0eXjK71OBfMMSfhhsQrPkWeylVeLqL9jnWRI=",
+        "owner": "mow44",
+        "repo": "themes",
+        "rev": "a7d9c3f3aae8c85b819d8f074358d463957287dd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "themes",
         "type": "github"
       }
     },
