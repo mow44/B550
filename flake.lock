@@ -1,5 +1,31 @@
 {
   "nodes": {
+    "calendar": {
+      "inputs": {
+        "flake-utils": [
+          "scripts",
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "scripts",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1750178948,
+        "narHash": "sha256-Vi2fM5dQUVH6sJQcTWfDo6sBftWVk6WzfKZ+hi8jF50=",
+        "owner": "mow44",
+        "repo": "calendar",
+        "rev": "ec0b595645fdf4049fed3966fa58a27c3c4a5201",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "calendar",
+        "type": "github"
+      }
+    },
     "catclock": {
       "inputs": {
         "flake-utils": [
@@ -222,6 +248,7 @@
     },
     "scripts": {
       "inputs": {
+        "calendar": "calendar",
         "catclock": "catclock",
         "dmenu": [
           "dmenu"
@@ -237,11 +264,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750164345,
-        "narHash": "sha256-BMLnUsd8WVyiwRHQfez1dm2taRk5EhSWgsSJ88XkO2s=",
+        "lastModified": 1750180411,
+        "narHash": "sha256-REnI9kbFv7QB1oUCUeCpQavWCNDrdnDP3Irl+LlxQm0=",
         "owner": "mow44",
         "repo": "scripts",
-        "rev": "f4bf5345de28de07e799f86958a4ba349e4f95b9",
+        "rev": "cc2ea73645ba04ee37a5ab2a48f39a02c67766fe",
         "type": "github"
       },
       "original": {
