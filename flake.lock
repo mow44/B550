@@ -10,11 +10,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750185258,
-        "narHash": "sha256-i8hhsyPCjxXkGnaqgXXLZZcF6K+GWj74jLNM1zaW/Ls=",
+        "lastModified": 1750239295,
+        "narHash": "sha256-TsGYuC85o1sQOjDUu+5PEwJDRuH2GRHcaVb8zm9is3Y=",
         "owner": "mow44",
         "repo": "calendar",
-        "rev": "90f97cdfb2b9113c50ed6d1221bec6061e0463c2",
+        "rev": "92f70496f236137c8f2c702274cfdf5b0a00acf6",
         "type": "github"
       },
       "original": {
@@ -34,17 +34,41 @@
         ]
       },
       "locked": {
-        "lastModified": 1750184975,
-        "narHash": "sha256-3RrRCiCzY0CnowKY4AfJMJb1T2vHYHabqaQeJp8H8FA=",
+        "lastModified": 1750239573,
+        "narHash": "sha256-DSQ3mCOWwTIxzAaau+OTf8fJfH/rx75JCFIxkZXX3Ng=",
         "owner": "mow44",
         "repo": "catclock",
-        "rev": "ddc7fd960157198190d0604c4885a8f3f30982a2",
+        "rev": "8335ae8b32b16622d3433816501711d7cf6b8fa1",
         "type": "github"
       },
       "original": {
         "owner": "mow44",
         "ref": "main",
         "repo": "catclock",
+        "type": "github"
+      }
+    },
+    "dexe": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1750240266,
+        "narHash": "sha256-j/Aj7CPgdx2zFHdWR1Bz7fMlNiMmYQGaxkfGKeMabL0=",
+        "owner": "mow44",
+        "repo": "dexe",
+        "rev": "948d2f78f7f8e402558fa8d5a32d90eab778cf2b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "dexe",
         "type": "github"
       }
     },
@@ -66,6 +90,30 @@
         "owner": "mow44",
         "ref": "main",
         "repo": "dmenu",
+        "type": "github"
+      }
+    },
+    "donsol": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1750240568,
+        "narHash": "sha256-A3ndnKc/XsBCV0Yhe8CwLq25tRMLdJa2SqAHe3+y6ac=",
+        "owner": "mow44",
+        "repo": "donsol",
+        "rev": "b0eb16595d1558faa5d87f1086172b6dc3d026e2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "donsol",
         "type": "github"
       }
     },
@@ -216,11 +264,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750189140,
-        "narHash": "sha256-si2VLuRODfdCLk1vvHmr6HB5JHFmgAQmD/Cl8G7VqUU=",
+        "lastModified": 1750240704,
+        "narHash": "sha256-EqdUFltzfXPFW95lKxjKENJ3YmEAVDXpxHua6ztYNjQ=",
         "owner": "mow44",
         "repo": "noodle",
-        "rev": "9569f58511058511454f5c98d6b665a5e23f258f",
+        "rev": "cb7f1df5488b753b3b3164d05eece082274e6e00",
         "type": "github"
       },
       "original": {
@@ -234,7 +282,9 @@
       "inputs": {
         "calendar": "calendar",
         "catclock": "catclock",
+        "dexe": "dexe",
         "dmenu": "dmenu",
+        "donsol": "donsol",
         "dwm": "dwm",
         "flake-utils": "flake-utils",
         "helix": "helix",
@@ -277,8 +327,14 @@
         "catclock": [
           "catclock"
         ],
+        "dexe": [
+          "dexe"
+        ],
         "dmenu": [
           "dmenu"
+        ],
+        "donsol": [
+          "donsol"
         ],
         "flake-utils": [
           "flake-utils"
@@ -294,11 +350,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750186500,
-        "narHash": "sha256-E68jOqK6Wt/R9vZfZ2ycGVeISaKmCtSaBAUQUXakkXI=",
+        "lastModified": 1750241679,
+        "narHash": "sha256-vk1hfqk385vvAU1UmBe58ANwlSEglxGr4H6vHZz1TM0=",
         "owner": "mow44",
         "repo": "scripts",
-        "rev": "1f9616877d6bba0d3d86750e8a04ef7bfb85bc90",
+        "rev": "04dc79ba2287cf72f7e9c6b82efd94f7cc428058",
         "type": "github"
       },
       "original": {

@@ -18,6 +18,14 @@
       };
     };
 
+    dexe = {
+      url = "github:mow44/dexe/main";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
+    };
+
     catclock = {
       url = "github:mow44/catclock/main";
       inputs = {
@@ -28,6 +36,14 @@
 
     calendar = {
       url = "github:mow44/calendar/main";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
+    };
+
+    donsol = {
+      url = "github:mow44/donsol/main";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
@@ -53,8 +69,10 @@
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
         uxn11.follows = "uxn11";
+        dexe.follows = "dexe";
         catclock.follows = "catclock";
         calendar.follows = "calendar";
+        donsol.follows = "donsol";
         noodle.follows = "noodle";
         dmenu.follows = "dmenu";
       };
