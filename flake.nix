@@ -10,6 +10,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    locker = {
+      url = "github:mow44/locker/main";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     uxn11 = {
       url = "github:mow44/uxn11/main";
       inputs = {
@@ -68,6 +73,7 @@
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
+        locker.follows = "locker";
         uxn11.follows = "uxn11";
         dexe.follows = "dexe";
         catclock.follows = "catclock";
@@ -122,6 +128,7 @@
       slock,
       dwm,
       scripts,
+      locker,
       uxn11,
       ...
     }:
@@ -137,6 +144,7 @@
               slock
               dwm
               scripts
+              locker
               uxn11
               stateVersion
               ;

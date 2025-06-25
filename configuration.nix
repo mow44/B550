@@ -3,6 +3,7 @@
   slock,
   dwm,
   scripts,
+  locker,
   uxn11,
   stateVersion,
   ...
@@ -47,6 +48,7 @@
 
   environment.systemPackages = [
     scripts.packages.x86_64-linux.default
+    locker.defaultPackage.x86_64-linux
     uxn11.packages.x86_64-linux.default
   ];
 

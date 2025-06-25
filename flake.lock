@@ -224,17 +224,54 @@
         ]
       },
       "locked": {
-        "lastModified": 1749154018,
-        "narHash": "sha256-gjN3j7joRvT3a8Zgcylnd4NFsnXeDBumqiu4HmY1RIg=",
+        "lastModified": 1750792728,
+        "narHash": "sha256-Lh3dopA8DdY+ZoaAJPrtkZOZaFEJGSYjOdAYYgOPgE4=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "7aae0ee71a17b19708b93b3ed448a1a0952bf111",
+        "rev": "366f00797b1efb70f2882d3da485e3c10fd3d557",
         "type": "github"
       },
       "original": {
         "owner": "nix-community",
         "ref": "release-25.05",
         "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "import-cargo": {
+      "locked": {
+        "lastModified": 1594305518,
+        "narHash": "sha256-frtArgN42rSaEcEOYWg8sVPMUK+Zgch3c+wejcpX3DY=",
+        "owner": "edolstra",
+        "repo": "import-cargo",
+        "rev": "25d40be4a73d40a2572e0cc233b83253554f06c5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "import-cargo",
+        "type": "github"
+      }
+    },
+    "locker": {
+      "inputs": {
+        "import-cargo": "import-cargo",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1750868238,
+        "narHash": "sha256-uwOGRrl5XU2ECbIGEvigibM/HKuMu4eorh14M5UAtCM=",
+        "owner": "mow44",
+        "repo": "locker",
+        "rev": "62d90fcceb959adc7230b1077ed5c3c5c30e62d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "locker",
         "type": "github"
       }
     },
@@ -290,6 +327,7 @@
         "helix": "helix",
         "home": "home",
         "home-manager": "home-manager",
+        "locker": "locker",
         "nixpkgs": "nixpkgs",
         "noodle": "noodle",
         "scripts": "scripts",
@@ -339,6 +377,9 @@
         "flake-utils": [
           "flake-utils"
         ],
+        "locker": [
+          "locker"
+        ],
         "nixpkgs": [
           "nixpkgs"
         ],
@@ -350,11 +391,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750243077,
-        "narHash": "sha256-6OxVt5vg8kV9OGceyPSt1JyBOWb9jqVcIdsoPbYHXSE=",
+        "lastModified": 1750870062,
+        "narHash": "sha256-e04kg07+k+Ahm9+mvO8820rG1e8YwRgCP5WcezgEgow=",
         "owner": "mow44",
         "repo": "scripts",
-        "rev": "f8461fd4070b4807bc481b5be341e0c838bb3d35",
+        "rev": "604097b239a944b201acfab03ebd8e3e0f8abbe8",
         "type": "github"
       },
       "original": {
