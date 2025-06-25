@@ -391,11 +391,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750870062,
-        "narHash": "sha256-e04kg07+k+Ahm9+mvO8820rG1e8YwRgCP5WcezgEgow=",
+        "lastModified": 1750871441,
+        "narHash": "sha256-HoaxIApjFYXPxcrFwPxOtJvuaBaOi3Fo4EGfzWh7C34=",
         "owner": "mow44",
         "repo": "scripts",
-        "rev": "604097b239a944b201acfab03ebd8e3e0f8abbe8",
+        "rev": "e7c4ad5c8de0c147fd01ceb5a5628ed06b35e7c5",
         "type": "github"
       },
       "original": {
