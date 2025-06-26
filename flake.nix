@@ -137,6 +137,7 @@
     }:
     let
       stateVersion = "25.05";
+      userName = "a";
     in
     {
       nixosConfigurations = {
@@ -145,18 +146,19 @@
           specialArgs = {
             inherit
               system
+              stateVersion
+              userName
               slock
               dwm
               scripts
               locker
               uxn11
-              stateVersion
               ;
           };
           modules = [
             ./hardware-configuration.nix
             ./configuration.nix
-            (home.makeHomeModule "a" stateVersion system)
+            (home.makeHomeModule userName stateVersion system)
           ];
         };
       };

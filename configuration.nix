@@ -1,12 +1,13 @@
 {
   pkgs,
   system,
+  stateVersion,
+  userName,
   slock,
   dwm,
   scripts,
   locker,
   uxn11,
-  stateVersion,
   ...
 }:
 {
@@ -130,7 +131,7 @@
       ];
 
       trusted-users = [
-        "a"
+        userName
       ];
 
       trusted-public-keys = [
@@ -228,8 +229,8 @@
 
   time.timeZone = "Europe/Moscow";
 
-  users.users.a = {
-    description = "a";
+  users.users.${userName} = {
+    description = userName;
     isNormalUser = true;
 
     extraGroups = [
