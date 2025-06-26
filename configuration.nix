@@ -6,6 +6,7 @@
   locker,
   uxn11,
   stateVersion,
+  system,
   ...
 }:
 {
@@ -47,9 +48,9 @@
   };
 
   environment.systemPackages = [
-    scripts.packages.x86_64-linux.default
-    locker.packages.x86_64-linux.default
-    uxn11.packages.x86_64-linux.default
+    scripts.packages.${system}.default
+    locker.packages.${system}.default
+    uxn11.packages.${system}.default
   ];
 
   fonts = {
@@ -150,9 +151,10 @@
       enableSSHSupport = true;
     };
 
+    # FIXME
     slock = {
       enable = true;
-      package = slock.defaultPackage.x86_64-linux;
+      package = slock.defaultPackage.${system};
     };
 
     nh.enable = true;
@@ -189,9 +191,10 @@
       enable = true;
       videoDrivers = [ "amdgpu" ];
 
+      # FIXME
       windowManager.dwm = {
         enable = true;
-        package = dwm.defaultPackage.x86_64-linux;
+        package = dwm.defaultPackage.${system};
       };
 
       xkb = {

@@ -2,11 +2,11 @@
   description = "NixOS-B550";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05"; # FIXME
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     flake-utils.url = "github:numtide/flake-utils";
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-25.05"; # FIXME
+      url = "github:nix-community/home-manager/release-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -136,11 +136,11 @@
       ...
     }:
     let
-      stateVersion = "25.05"; # FIXME
+      stateVersion = "25.05";
     in
     {
       nixosConfigurations = {
-        B550 = nixpkgs.lib.nixosSystem {
+        B550 = nixpkgs.lib.nixosSystem rec {
           system = "x86_64-linux";
           specialArgs = {
             inherit
@@ -150,12 +150,13 @@
               locker
               uxn11
               stateVersion
+              system
               ;
           };
           modules = [
             ./hardware-configuration.nix
             ./configuration.nix
-            (home.makeHomeModule "a" stateVersion) # FIXME
+            (home.makeHomeModule "a" stateVersion)
           ];
         };
       };
