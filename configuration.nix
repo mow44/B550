@@ -48,7 +48,7 @@
 
   environment.systemPackages = [
     scripts.packages.x86_64-linux.default
-    locker.defaultPackage.x86_64-linux
+    locker.packages.x86_64-linux.default
     uxn11.packages.x86_64-linux.default
   ];
 

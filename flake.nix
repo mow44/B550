@@ -12,7 +12,10 @@
 
     locker = {
       url = "github:mow44/locker/main";
-      inputs.nixpkgs.follows = "nixpkgs";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
     };
 
     uxn11 = {

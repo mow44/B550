@@ -255,17 +255,20 @@
     },
     "locker": {
       "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
         "import-cargo": "import-cargo",
         "nixpkgs": [
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1750868238,
-        "narHash": "sha256-uwOGRrl5XU2ECbIGEvigibM/HKuMu4eorh14M5UAtCM=",
+        "lastModified": 1750957689,
+        "narHash": "sha256-rgYYdmUyJZzUF+YPO060Z2YCjpeHUuyuprR0iIW2Roc=",
         "owner": "mow44",
         "repo": "locker",
-        "rev": "62d90fcceb959adc7230b1077ed5c3c5c30e62d8",
+        "rev": "fb4257c56687e5bc4c2a987c736a8fc820df74ff",
         "type": "github"
       },
       "original": {
@@ -391,11 +394,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750871441,
-        "narHash": "sha256-HoaxIApjFYXPxcrFwPxOtJvuaBaOi3Fo4EGfzWh7C34=",
+        "lastModified": 1750957908,
+        "narHash": "sha256-pNWhwcnRiClknRo4HHUJtR/0+HKT9wmXBcJFG/1k+Sc=",
         "owner": "mow44",
         "repo": "scripts",
-        "rev": "e7c4ad5c8de0c147fd01ceb5a5628ed06b35e7c5",
+        "rev": "3c1e5180e0e503b53e78dcab69286fe27ec21b10",
         "type": "github"
       },
       "original": {
