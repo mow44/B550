@@ -203,14 +203,18 @@
         ]
       },
       "locked": {
-        "lastModified": 1750961567,
-        "narHash": "sha256-E4zPLNhf4O7dZqN/oXkPXE7fLwSUJKD/TRXYuhPStqo=",
-        "path": "/home/a/NixOS/home",
-        "type": "path"
+        "lastModified": 1750961814,
+        "narHash": "sha256-C2/E00gzPJdjnKEC5srAnAu+c0BwyZzmdFToOdh3RWo=",
+        "owner": "mow44",
+        "repo": "home",
+        "rev": "872095802602f53752d207314988913ea5ff55d3",
+        "type": "github"
       },
       "original": {
-        "path": "/home/a/NixOS/home",
-        "type": "path"
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "home",
+        "type": "github"
       }
     },
     "home-manager": {
