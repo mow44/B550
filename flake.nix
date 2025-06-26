@@ -144,19 +144,19 @@
           system = "x86_64-linux";
           specialArgs = {
             inherit
+              system
               slock
               dwm
               scripts
               locker
               uxn11
               stateVersion
-              system
               ;
           };
           modules = [
             ./hardware-configuration.nix
             ./configuration.nix
-            (home.makeHomeModule "a" stateVersion)
+            (home.makeHomeModule "a" stateVersion system)
           ];
         };
       };

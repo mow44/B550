@@ -1,12 +1,12 @@
 {
   pkgs,
+  system,
   slock,
   dwm,
   scripts,
   locker,
   uxn11,
   stateVersion,
-  system,
   ...
 }:
 {
