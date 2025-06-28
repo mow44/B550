@@ -127,7 +127,6 @@
         flake-utils.follows = "flake-utils";
         home-manager.follows = "home-manager";
         helix.follows = "helix";
-        wallpapers.follows = "wallpapers";
         slstatus.follows = "slstatus";
         scripts.follows = "scripts";
       };

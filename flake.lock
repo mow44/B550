@@ -209,17 +209,14 @@
         ],
         "slstatus": [
           "slstatus"
-        ],
-        "wallpapers": [
-          "wallpapers"
         ]
       },
       "locked": {
-        "lastModified": 1751140847,
-        "narHash": "sha256-KMNGI5MVaf1qLF0OAO7q9ocbn7qS3euOhCQjWJv6jR4=",
+        "lastModified": 1751141026,
+        "narHash": "sha256-x6bWxm2+hJuMxyG7fhC7/rmhtwShIVwMy2bpnSNUfQ0=",
         "owner": "mow44",
         "repo": "home",
-        "rev": "551363c1d491c9d0bd58b29cdd4d9263bb0af9e9",
+        "rev": "b7c4a7f6aa18486ffca1cf7d9ebbb706f2972a92",
         "type": "github"
       },
       "original": {
