@@ -87,6 +87,7 @@
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
+        wallpapers.follows = "wallpapers";
         locker.follows = "locker";
         uxn11.follows = "uxn11";
         dexe.follows = "dexe";
@@ -128,6 +129,7 @@
         helix.follows = "helix";
         wallpapers.follows = "wallpapers";
         slstatus.follows = "slstatus";
+        scripts.follows = "scripts";
       };
     };
 

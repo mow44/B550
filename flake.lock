@@ -204,6 +204,9 @@
         "nixpkgs": [
           "nixpkgs"
         ],
+        "scripts": [
+          "scripts"
+        ],
         "slstatus": [
           "slstatus"
         ],
@@ -212,11 +215,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1751138508,
-        "narHash": "sha256-Jv+Ca55oeMbeXYoMeunAk9/37dc7KCu+w/g4Exyx+Ls=",
+        "lastModified": 1751140222,
+        "narHash": "sha256-bAXEac9bL6L4cQZLMeenOTVNdkEsyNZrlG8N6VF6qgw=",
         "owner": "mow44",
         "repo": "home",
-        "rev": "d8916cec0cd1de5ad86c072c8f84ca62a771ad52",
+        "rev": "bac6e91bc1e0de2f3592e48d1052b784ebf710b5",
         "type": "github"
       },
       "original": {
@@ -401,14 +404,17 @@
         ],
         "uxn11": [
           "uxn11"
+        ],
+        "wallpapers": [
+          "wallpapers"
         ]
       },
       "locked": {
-        "lastModified": 1751117719,
-        "narHash": "sha256-L7cAd/6YYjQn/IXZXCupq0NzFATmeWcGPjqg/XmIo9s=",
+        "lastModified": 1751139943,
+        "narHash": "sha256-aiZt1GvO4Q/yux840uTJ9MtioJk5hMVNd3VKbbeCqYA=",
         "owner": "mow44",
         "repo": "scripts",
-        "rev": "a7dfea32ce9c57347a13aab4cd8b8c16b4142343",
+        "rev": "e4119074b4cd49c35de1a7e412fd9f1717e1c867",
         "type": "github"
       },
       "original": {
@@ -515,11 +521,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1751128958,
-        "narHash": "sha256-vWJQeaVBvyq1pGdTTq8qwuyrBhWHuY4L8KjbhOChhsU=",
+        "lastModified": 1751140024,
+        "narHash": "sha256-uGR/KKVxmFrM72jSBmzs6HDTLwcn3nHET2OM+q4KdiI=",
         "owner": "mow44",
         "repo": "wallpapers",
-        "rev": "fbd2d30367e04eb66f42c8ef3bdbe2d028384435",
+        "rev": "4abdd23d5816fbcb0318d9491306d4c52ebbd2b4",
         "type": "github"
       },
       "original": {
