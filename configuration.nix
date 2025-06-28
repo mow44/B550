@@ -152,10 +152,9 @@
       enableSSHSupport = true;
     };
 
-    # FIXME
     slock = {
       enable = true;
-      package = slock.defaultPackage.${system};
+      package = slock.packages.${system}.default;
     };
 
     nh.enable = true;
@@ -192,10 +191,9 @@
       enable = true;
       videoDrivers = [ "amdgpu" ];
 
-      # FIXME
       windowManager.dwm = {
         enable = true;
-        package = dwm.defaultPackage.${system};
+        package = dwm.packages.${system}.default;
       };
 
       xkb = {
@@ -220,7 +218,7 @@
 
   system = {
     autoUpgrade = {
-      channel = "https://channels.nixos.org/nixos-25.05"; # FIXME
+      channel = "https://channels.nixos.org/nixos-25.05";
       enable = true;
     };
 

@@ -68,7 +68,10 @@
 
     dmenu = {
       url = "github:mow44/dmenu/main";
-      inputs.nixpkgs.follows = "nixpkgs";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
     };
 
     scripts = {
@@ -89,7 +92,10 @@
 
     slock = {
       url = "github:mow44/slock/main";
-      inputs.nixpkgs.follows = "nixpkgs";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
     };
 
     helix = {
@@ -99,13 +105,17 @@
 
     slstatus = {
       url = "github:mow44/slstatus/main";
-      inputs.nixpkgs.follows = "nixpkgs";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
     };
 
     home = {
       url = "github:mow44/home/main";
       inputs = {
         nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
         home-manager.follows = "home-manager";
         helix.follows = "helix";
         slstatus.follows = "slstatus";
