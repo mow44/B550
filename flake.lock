@@ -206,14 +206,17 @@
         ],
         "slstatus": [
           "slstatus"
+        ],
+        "wallpapers": [
+          "wallpapers"
         ]
       },
       "locked": {
-        "lastModified": 1751117391,
-        "narHash": "sha256-BwC4s8zXukG8u6vRmBSUuqVjm7cTpalYVrCPRqlgGYA=",
+        "lastModified": 1751138508,
+        "narHash": "sha256-Jv+Ca55oeMbeXYoMeunAk9/37dc7KCu+w/g4Exyx+Ls=",
         "owner": "mow44",
         "repo": "home",
-        "rev": "5d770660c0e5b970c5f420007bbc783f1d78c548",
+        "rev": "d8916cec0cd1de5ad86c072c8f84ca62a771ad52",
         "type": "github"
       },
       "original": {
@@ -342,7 +345,8 @@
         "scripts": "scripts",
         "slock": "slock",
         "slstatus": "slstatus",
-        "uxn11": "uxn11"
+        "uxn11": "uxn11",
+        "wallpapers": "wallpapers"
       }
     },
     "rust-overlay": {
@@ -498,6 +502,30 @@
         "owner": "mow44",
         "ref": "main",
         "repo": "uxn11",
+        "type": "github"
+      }
+    },
+    "wallpapers": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1751128958,
+        "narHash": "sha256-vWJQeaVBvyq1pGdTTq8qwuyrBhWHuY4L8KjbhOChhsU=",
+        "owner": "mow44",
+        "repo": "wallpapers",
+        "rev": "fbd2d30367e04eb66f42c8ef3bdbe2d028384435",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "wallpapers",
         "type": "github"
       }
     }

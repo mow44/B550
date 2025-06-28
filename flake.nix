@@ -10,6 +10,14 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    wallpapers = {
+      url = "github:mow44/wallpapers/main";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+      };
+    };
+
     locker = {
       url = "github:mow44/locker/main";
       inputs = {
@@ -118,6 +126,7 @@
         flake-utils.follows = "flake-utils";
         home-manager.follows = "home-manager";
         helix.follows = "helix";
+        wallpapers.follows = "wallpapers";
         slstatus.follows = "slstatus";
       };
     };
