@@ -60,6 +60,7 @@
 
     packages = with pkgs; [
       nerd-fonts.atkynson-mono
+      jetbrains-mono
     ];
   };
 
