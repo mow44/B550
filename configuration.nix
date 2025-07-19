@@ -148,6 +148,7 @@
   };
 
   programs = {
+    # haguichi.enable = true;
     gnupg.agent = {
       enable = true;
       enableSSHSupport = true;
@@ -162,6 +163,7 @@
   };
 
   services = {
+    # logmein-hamachi.enable = true;
     blueman.enable = true;
     displayManager.ly.enable = true;
 
