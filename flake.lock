@@ -518,11 +518,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1752043018,
-        "narHash": "sha256-xCZiJQULAzLJ1BZMLGAFvXkj6mnp9mjZ1HPK0T3wlEA=",
+        "lastModified": 1753452962,
+        "narHash": "sha256-TmFGwcr7l+y3yV9sRLKVVa0k59dcik4us40I6+EmBxU=",
         "owner": "mow44",
         "repo": "wallpapers",
-        "rev": "be33b10ee978cf5f526217d22942d83ac26968fc",
+        "rev": "0d636ee8f03aef0cd5bacaacb57e8fb05c3a72cf",
         "type": "github"
       },
       "original": {
