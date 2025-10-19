@@ -83,6 +83,9 @@
   networking = {
     hostName = "B550";
 
+    # For wg-quick: https://wiki.nixos.org/wiki/WireGuard#wg-quick_issues_with_NetworkManager
+    networkmanager.dns = "systemd-resolved";
+
     firewall = {
       # TODO test syncthing without settings below
 
@@ -188,6 +191,11 @@
     pulseaudio = {
       enable = true;
       support32Bit = true;
+    };
+
+    # For wg-quick: https://wiki.nixos.org/wiki/WireGuard#wg-quick_issues_with_NetworkManager
+    resolved = {
+      enable = true;
     };
 
     xserver = {
