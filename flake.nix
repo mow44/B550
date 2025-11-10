@@ -6,7 +6,7 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-unstable";
+      url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -121,7 +121,8 @@
     };
 
     home = {
-      url = "github:mow44/home/main";
+      # url = "github:mow44/home/main"; TODO fix
+      url = "/home/a/NixOS/home";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
@@ -133,7 +134,8 @@
     };
 
     dwm = {
-      url = "github:mow44/dwm/main";
+      # url = "github:mow44/dwm/main"; TODO fix
+      url = "/home/a/NixOS/dwm";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
