@@ -229,7 +229,7 @@
 
   system = {
     autoUpgrade = {
-      channel = "https://channels.nixos.org/nixos-25.05";
+      channel = "https://channels.nixos.org/nixos-unstable";
       enable = true;
     };
 
