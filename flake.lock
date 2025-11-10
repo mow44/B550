@@ -136,14 +136,18 @@
         ]
       },
       "locked": {
-        "lastModified": 1762791727,
-        "narHash": "sha256-Ubjod/a6JnT78SZZyKCuMRbZGZbLX8bZeTQRTD91pcA=",
-        "path": "/home/a/NixOS/dwm",
-        "type": "path"
+        "lastModified": 1762791721,
+        "narHash": "sha256-q0ps6/D7PdiJn6+df1UyAgRztYSPP3gd1XnEJpy9iQU=",
+        "owner": "mow44",
+        "repo": "dwm",
+        "rev": "d4a66acc903b7230f46e73b343439ab34e92cadc",
+        "type": "github"
       },
       "original": {
-        "path": "/home/a/NixOS/dwm",
-        "type": "path"
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "dwm",
+        "type": "github"
       }
     },
     "flake-utils": {
@@ -208,14 +212,18 @@
         ]
       },
       "locked": {
-        "lastModified": 1762790535,
-        "narHash": "sha256-cL5uv+ebeDxfxS7+4xKze417GinfJ80bhxExGqCZ9tE=",
-        "path": "/home/a/NixOS/home",
-        "type": "path"
+        "lastModified": 1762792389,
+        "narHash": "sha256-MYfEfo+h0IRQnxOsp5QOiy4REZ71J3Ai2NGfTXDubNU=",
+        "owner": "mow44",
+        "repo": "home",
+        "rev": "c398dfefb17a78185a05a1d1964997dcdaa55dd2",
+        "type": "github"
       },
       "original": {
-        "path": "/home/a/NixOS/home",
-        "type": "path"
+        "owner": "mow44",
+        "ref": "main",
+        "repo": "home",
+        "type": "github"
       }
     },
     "home-manager": {

@@ -121,8 +121,8 @@
     };
 
     home = {
-      # url = "github:mow44/home/main"; TODO fix
-      url = "/home/a/NixOS/home";
+      url = "github:mow44/home/main";
+      # url = "/home/a/NixOS/home";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
@@ -134,8 +134,8 @@
     };
 
     dwm = {
-      # url = "github:mow44/dwm/main"; TODO fix
-      url = "/home/a/NixOS/dwm";
+      url = "github:mow44/dwm/main";
+      # url = "/home/a/NixOS/dwm";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
