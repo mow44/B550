@@ -151,7 +151,6 @@
   };
 
   programs = {
-    # haguichi.enable = true;
     gnupg.agent = {
       enable = true;
       enableSSHSupport = true;
@@ -163,6 +162,33 @@
     };
 
     nh.enable = true;
+
+    nix-ld = {
+      enable = true;
+      libraries = [
+        pkgs.alsa-lib
+        pkgs.at-spi2-core
+        pkgs.cairo
+        pkgs.cups
+        pkgs.dbus
+        pkgs.fontconfig
+        pkgs.freetype
+        pkgs.glib
+        pkgs.libgbm
+        pkgs.libx11
+        pkgs.libxcb
+        pkgs.libxext
+        pkgs.libxfixes
+        pkgs.libxkbcommon
+        pkgs.libxrandr
+        pkgs.nspr
+        pkgs.nss
+        pkgs.pango
+        pkgs.vulkan-loader
+        pkgs.xorg.libXcomposite
+        pkgs.xorg.libXdamage
+      ];
+    };
   };
 
   services = {
@@ -226,7 +252,7 @@
     };
 
     zapret = {
-      enable = true;
+      enable = false;
       params = [
         "--dpi-desync=fake,multidisorder"
         "--dpi-desync-ttl=3"
