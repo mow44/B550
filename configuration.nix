@@ -250,26 +250,9 @@
         }
       ];
     };
-
-    zapret = {
-      enable = false;
-      params = [
-        "--dpi-desync=fake,multidisorder"
-        "--dpi-desync-ttl=3"
-        "--orig-ttl=1"
-        "--orig-mod-start=s1"
-        "--orig-mod-cutoff=d1"
-        "--dpi-desync-split-pos=1,sniext+1,host+1,midsld-2,midsld,midsld+2,endhost-1"
-      ];
-    };
   };
 
   system = {
-    autoUpgrade = {
-      channel = "https://channels.nixos.org/nixos-unstable";
-      enable = true;
-    };
-
     stateVersion = stateVersion;
   };
 
